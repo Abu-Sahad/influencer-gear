@@ -241,20 +241,6 @@ i.footer-icon.fab.fa-youtube {
 /* -----------
 responsive css 
 -------------*/
-@media screen and (max-width:1400px){
-    .collections,
-    .facilitys{
-      
-        margin-right: 50px;
-
-    }
-    .footer_area{
-        
-        width:100%; 
-    }
-    
-
-}
 @media screen and (max-width:768px){
     .banner{
         grid-template-columns: 1fr;
