@@ -120,12 +120,12 @@ Popular collection area
     grid-column-gap:24px;
 }
 .collection .collection-banner img{
-    width: 329px;
+    width: 345px;
     height: 256px;
 
 }
 .collection{
-    width: 329px;
+    width: 345px;
     height: 440px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -140,7 +140,7 @@ Popular collection area
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 200px 8px 0px;
+    padding: 0px 215px 8px 0px;
 }
 .collection-tittle {
     margin-bottom: 16px;
@@ -199,4 +199,28 @@ facility area
 }
 #facility-details {
     padding: 0 15px;
+}
+
+/*---------- 
+Footer section
+------------ */
+footer.footer_area {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    margin-right: 18px;
+    height: 180px;
+}
+
+h1.footer-tittle {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+p.footer-details {
+    padding-bottom: 5px;
+}
+p.footer-details1 {
+    padding-bottom: 10px;
 }
