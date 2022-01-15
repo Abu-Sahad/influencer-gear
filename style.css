@@ -167,3 +167,36 @@ Popular collection area
     text-align: right;
     padding: 0 35px 0px 0px;
 }
+/* ---------
+facility area 
+-----------*/
+#facility_p {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.facilitys{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:26px;
+}
+.facility-banner img{
+    width: 360px;
+    height: 265px;
+}
+.facility{
+    width: 360px;
+    height: 500px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.facility-tittle {
+    margin-bottom: 16px;
+    padding-top: 20px;
+    padding-left: 17px;
+}
+#facility-details {
+    padding: 0 15px;
+}
