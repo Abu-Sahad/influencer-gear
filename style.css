@@ -126,7 +126,7 @@ Popular collection area
 }
 .collection{
     width: 329px;
-    height: 476px;
+    height: 440px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -156,4 +156,14 @@ Popular collection area
 }
 .fa-star.empty{
     color:#AEAEAE;
+}
+.button{
+    color: hotpink;
+    border-style: none;
+    background-color: white;
+    text-align: right;
+}
+.item-button {
+    text-align: right;
+    padding: 0 35px 0px 0px;
 }
