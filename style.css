@@ -241,16 +241,21 @@ i.footer-icon.fab.fa-youtube {
 /* -----------
 responsive css 
 -------------*/
-@media (max-width:950px){
-    .gallery{
-        grid-template-columns: 1fr 1fr;
-    }
-    .banner-left h1{
-        font-size: 35px;
-    }
-}
+@media screen and (max-width:1400px){
+    .collections,
+    .facilitys{
+      
+        margin-right: 50px;
 
-@media screen and (max-width:1150px){
+    }
+    .footer_area{
+        
+        width:100%; 
+    }
+    
+
+}
+@media screen and (max-width:768px){
     .banner{
         grid-template-columns: 1fr;
         height: fit-content;
@@ -261,7 +266,7 @@ responsive css
 
     }
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:576px){
     .collections,
     .facilitys{
         grid-template-columns: 1fr;
@@ -269,15 +274,9 @@ responsive css
         margin-left: 100px;
 
     }
-   /* .navigation{
-       display: none;
-   }
-   ..nav-tittle h1 {
-       text-align: center;
-   } */
 
-}
-@media screen and (max-width:510px){
+ }
+@media screen and (max-width:576px){
     .collections,
     .facilitys{
       
