@@ -127,7 +127,7 @@ Popular collection area
 }
 .collection{
     width: 300px;
-    height: 455px;
+    height: 435px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -143,6 +143,7 @@ Popular collection area
     justify-content: space-between;
     padding: 0px 170px 8px 0px;
 }
+
 .collection-tittle {
     margin-bottom: 16px;
 }
