@@ -120,13 +120,14 @@ Popular collection area
     grid-column-gap:24px;
 }
 .collection .collection-banner img{
-    width: 345px;
+    width: 300px;
     height: 256px;
+    padding: 17px 14px 0px 14px;
 
 }
 .collection{
-    width: 345px;
-    height: 440px;
+    width: 300px;
+    height: 455px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -140,7 +141,7 @@ Popular collection area
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 215px 8px 0px;
+    padding: 0px 170px 8px 0px;
 }
 .collection-tittle {
     margin-bottom: 16px;
@@ -166,7 +167,7 @@ Popular collection area
 }
 .item-button {
     text-align: right;
-    padding: 0 35px 0px 0px;
+    padding: 0 60px 0px 0px;
 }
 /* ---------
 facility area 
@@ -183,15 +184,17 @@ facility area
     grid-row-gap:26px;
 }
 .facility-banner img{
-    width: 360px;
-    height: 265px;
+    width: 300px;
+    height: 256px;
+    border-radius: 10px;
 }
 .facility{
-    width: 360px;
-    height: 500px;
+    width: 329px;
+    height: 520px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    padding: 17px 14px 0px 14px;
 }
 .facility-tittle {
     margin-bottom: 16px;
@@ -257,11 +260,6 @@ responsive css
         grid-template-columns: 1fr 1fr;
 
     }
-    .footer_area{
-        /* width:850px; */
-        /* margin-left: 100px; */
-    }
-    
 }
 @media screen and (max-width:800px){
     .collections,
@@ -271,24 +269,24 @@ responsive css
         margin-left: 100px;
 
     }
-    .footer_area{
-        /* width:450px; */
-        /* margin-left: -10px; */
-    }
-    
+   /* .navigation{
+       display: none;
+   }
+   ..nav-tittle h1 {
+       text-align: center;
+   } */
 
 }
-@media screen and (max-width:544px){
+@media screen and (max-width:510px){
     .collections,
     .facilitys{
       
-        margin-left:30px;
+        margin-left:50px;
 
     }
     .footer_area{
         
-        width:450px; 
-        margin-left:-20px
+        width:500px; 
     }
     
 
