@@ -162,6 +162,7 @@ Popular collection area
     border-style: none;
     background-color: white;
     text-align: right;
+    font-size: 17px;
 }
 .item-button {
     text-align: right;
@@ -223,4 +224,73 @@ p.footer-details {
 }
 p.footer-details1 {
     padding-bottom: 10px;
+}
+i.footer-icon.fas.fa-globe {
+    padding-left: 15px;
+}
+i.footer-icon.fab.fa-twitter {
+    padding-left: 15px;
+}
+i.footer-icon.fab.fa-youtube {
+    padding-left: 15px;
+}
+
+
+/* -----------
+responsive css 
+-------------*/
+@media (max-width:950px){
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+    .banner-left h1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:1150px){
+    .banner{
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+    .collections,
+    .facilitys{
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .footer_area{
+        /* width:850px; */
+        /* margin-left: 100px; */
+    }
+    
+}
+@media screen and (max-width:800px){
+    .collections,
+    .facilitys{
+        grid-template-columns: 1fr;
+        /* text-align: center; */
+        margin-left: 100px;
+
+    }
+    .footer_area{
+        /* width:450px; */
+        /* margin-left: -10px; */
+    }
+    
+
+}
+@media screen and (max-width:544px){
+    .collections,
+    .facilitys{
+      
+        margin-left:30px;
+
+    }
+    .footer_area{
+        
+        width:450px; 
+        margin-left:-20px
+    }
+    
+
 }
