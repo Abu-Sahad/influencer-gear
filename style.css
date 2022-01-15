@@ -31,6 +31,10 @@ nav{
     justify-content: space-between;
     height: 80px;
     align-items: center;
+    margin-bottom: 145px;
+}
+nav.container.header1 {
+    margin-bottom: 70px;
 }
 .navigation{
     display: flex;
@@ -59,6 +63,7 @@ Banner area css style
 .banner{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 170px;
 }
 .banner-left{
     display: flex;
@@ -101,6 +106,13 @@ Banner area css style
 /*------------ 
 Popular collection area
 ------------ */
+.section-tittle{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
 .collections{
 
     display: grid;
@@ -108,18 +120,33 @@ Popular collection area
     grid-column-gap:24px;
 }
 .collection .collection-banner img{
-    width: 300px;
+    width: 329px;
     height: 256px;
 
 }
 .collection{
     width: 329px;
     height: 476px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.collection-detail {
+    margin-top: 16px;
+    padding-left: 14px;
+    padding-bottom: 10px;
 }
 .collection-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 200px 8px 0px;
+}
+.collection-tittle {
+    margin-bottom: 16px;
+}
+.collection-price {
+    margin-bottom: 6px;
 }
 .fa-star{
     font-size: 12PX;
